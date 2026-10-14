@@ -1,0 +1,149 @@
+# a2a.so — Full Content Export
+
+> Every English page on a2a.so, generated from the source Markdown.
+
+## About a2a.so
+URL: https://a2a.so/about
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+a2a.so is an independent community resource for developers, product teams, and agents evaluating the Agent2Agent protocol. It aims to make primary documentation, ecosystem signals, and useful repositories easier to find.
+
+## Editorial approach
+
+We keep claims short, link them to public sources, distinguish announced support from documented deployments, and retain prior live measurements if a source API is unavailable.
+
+## Ownership and contact
+
+a2a.so is owned by Avada Group. For corrections, open an issue in the site repository when it is available.
+
+## About Avada Group
+URL: https://a2a.so/about/avada
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+Avada Group owns a2a.so. As of October 2026, it has served 1,015,000+ merchants across 36 Shopify apps.
+
+## Avada Group founders
+URL: https://a2a.so/about/founders
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+- Sam Nguyen: Founder & CEO
+- Thomas (Nguyễn Tuấn Anh): Co-founder & CTO
+
+## About Sam Nguyen
+URL: https://a2a.so/about/sam
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+Sam Nguyen is Founder & CEO of Avada Group, based in Vietnam. He builds software for Shopify merchants and writes about AI agents.
+
+## Companies and frameworks using or supporting A2A
+URL: https://a2a.so/companies
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+The entries below describe public announcements or documented support, not customer deployments.
+
+The dated catalogue below groups project founders, cloud platforms, and frameworks with public A2A documentation. A2A joined the Agentic AI Foundation in August 2026. [AAIF announcement](https://aaif.io/blog/a2a-joins-aaif)
+
+## People publicly connected to A2A
+URL: https://a2a.so/people
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+The people below have public protocol or ecosystem roles. Each entry links to its public source.
+
+## Repositories and libraries
+URL: https://a2a.so/repos
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+The catalogue below includes official SDKs and a public inspection tool. Star counts are refreshed with the live stats job.
+
+For community discovery, [awesome-a2a](https://github.com/ai-boost/awesome-a2a) collects libraries and projects, while [a2a-directory](https://github.com/sing1ee/a2a-directory) publishes an Agent Card directory.
+
+## Live A2A ecosystem stats
+URL: https://a2a.so/stats
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+These values are refreshed by a scheduled build from the GitHub, PyPI, and npm APIs. On an API error, the prior recorded value remains visible.
+
+## What is measured
+
+- Core repository stars and latest release: [GitHub releases](https://api.github.com/repos/a2aproject/A2A/releases)
+- Python SDK downloads: [PyPIStats](https://pypistats.org/api/packages/a2a-sdk/recent)
+- JavaScript SDK downloads: [npm downloads API](https://api.npmjs.org/downloads/point/last-week/@a2a-js/sdk)
+- Community repository count: [GitHub repository search](https://api.github.com/search/repositories?q=a2a+agent2agent+in:name,description,topics)
+
+## A2A use cases
+URL: https://a2a.so/use-cases
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+The examples below are patterns documented by public sources. They are not claims about named customer outcomes.
+
+## Hosted A2A servers
+
+Deploy an A2A server on AWS AgentCore Runtime, with OAuth or SigV4 authentication. [AWS documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-a2a.md)
+
+## Copilot Studio connections
+
+Use a Copilot Studio agent to call external, third-party agents. [Microsoft announcement](https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/05/07/empowering-multi-agent-apps-with-the-open-agent2agent-a2a-protocol/)
+
+## Specialist delegation
+
+An orchestrator can delegate to specialists built with different frameworks, such as a LangGraph orchestrator working with ADK or CrewAI agents. [Semantic Kernel example](https://devblogs.microsoft.com/semantic-kernel/guest-blog-building-multi-agent-solutions-with-semantic-kernel-and-a2a-protocol/)
+
+## Commerce and payments
+
+The Linux Foundation describes AP2 and A2A work as part of agentic commerce and payments. [Linux Foundation release](https://linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year)
+
+## Test and inspect agents
+
+Use [A2A Inspector](https://github.com/a2aproject/a2a-inspector) and the [A2A Technology Compatibility Kit](https://github.com/a2aproject/a2a-tck) for inspection and validation.
+
+## Multi-agent samples
+
+Public samples include a travel assistant and a slide-generation project that combine A2A with other agent tooling. [GitHub repository search](https://api.github.com/search/repositories?q=a2a+agent2agent+in:name,description,topics)
+
+## Framework scaffolding
+
+The AgentCore CLI documents A2A scaffolding with Strands, LangChain/LangGraph, and Google ADK. [AWS documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-a2a.md)
+
+## What is A2A?
+URL: https://a2a.so/what-is-a2a
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+The Agent2Agent (A2A) protocol gives independently built agents a shared way to discover capabilities, exchange messages, and manage work. [A2A documentation](https://a2a-protocol.org/)
+
+## The core objects
+
+An Agent Card is published at `/.well-known/agent-card.json`. It describes an agent's skills and interfaces so another agent can discover it. [AWS AgentCore A2A guide](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/runtime-a2a.md)
+
+Tasks represent units of work. Messages carry Parts, including text, raw data, URLs, and media. [A2A v1.0 changes](https://a2a-protocol.org/latest/whats-new-v1/)
+
+## Transports and v1.0
+
+A2A supports JSON-RPC, gRPC, and REST transports. Version 1.0 added verb-style operations, a unified Part model, `supportedInterfaces`, signed Agent Cards, device-code OAuth, and cursor pagination. [A2A v1.0 changes](https://a2a-protocol.org/latest/whats-new-v1/)
+
+## A2A and MCP
+
+MCP is for an agent’s connection to tools and data; A2A is for agent discovery, delegation, and collaboration. They are complementary protocols. [AAIF ecosystem overview](https://aaif.io/blog/where-a2a-fits-in-the-open-agent-ecosystem)
+
+## Why A2A exists
+URL: https://a2a.so/why-a2a
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+Agents built by different vendors need a common way to describe capabilities, delegate tasks, and return results. A2A defines that interaction layer. [A2A documentation](https://a2a-protocol.org/)
+
+## For teams
+
+A shared protocol can reduce dependence on one agent vendor and make it easier to compose specialist agents. A2A's public contributors include cloud and enterprise software companies. [Linux Foundation announcement](https://developers.googleblog.com/google-cloud-donates-a2a-to-linux-foundation/)
+
+## For agents
+
+Agent Cards support discovery. Tasks and messages support delegation and collaboration. A2A also specifies signed cards and device-code OAuth. [A2A v1.0 changes](https://a2a-protocol.org/latest/whats-new-v1/)
+
+## A practical guide to Agent2Agent
+URL: https://a2a.so/
+Updated: Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)
+
+A2A is an open protocol for agents to discover one another, delegate work, and collaborate across systems. [Official documentation](https://a2a-protocol.org/)
+
+## A protocol for agent-to-agent work
+
+It complements MCP: MCP connects agents to tools and data, while A2A connects agents to other agents. [AAIF ecosystem overview](https://aaif.io/blog/where-a2a-fits-in-the-open-agent-ecosystem)

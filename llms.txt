@@ -1,0 +1,18 @@
+# a2a.so
+
+> Independent, source-linked community resource for the A2A protocol.
+
+## Pages
+
+- [About a2a.so](https://a2a.so/about.md): Why this independent, source-linked A2A reference exists.
+- [About Avada Group](https://a2a.so/about/avada.md): The owner of a2a.so.
+- [Avada Group founders](https://a2a.so/about/founders.md): The founders of Avada Group.
+- [About Sam Nguyen](https://a2a.so/about/sam.md): A short biography of the founder of Avada Group.
+- [Companies and frameworks using or supporting A2A](https://a2a.so/companies.md): Publicly announced A2A project founders, platforms, and integrations.
+- [People publicly connected to A2A](https://a2a.so/people.md): A small, sourced list of people with public protocol or ecosystem roles.
+- [Repositories and libraries](https://a2a.so/repos.md): Official SDKs, tools, and public community resources for A2A builders.
+- [Live A2A ecosystem stats](https://a2a.so/stats.md): Regularly refreshed public measurements for the protocol and its SDKs.
+- [A2A use cases](https://a2a.so/use-cases.md): Documented patterns for using an agent-to-agent protocol.
+- [What is A2A?](https://a2a.so/what-is-a2a.md): The basic objects and transports in the Agent2Agent protocol.
+- [Why A2A exists](https://a2a.so/why-a2a.md): Why a shared protocol matters when agents are built by different teams.
+- [A practical guide to Agent2Agent](https://a2a.so/index.md): An independent, source-linked introduction to the A2A protocol.
