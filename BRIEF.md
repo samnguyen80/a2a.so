@@ -1,6 +1,6 @@
 # BRIEF — a2a.so
 
-Trạng thái: bản nháp 2026-10-14, chốt qua /grillme vòng 1 (quyết định: `ceo-brain/70-decisions/2026-10-14-a2a-so-site-setup.md`). Mục có dấu [CHỜ SAM] còn mở ở vòng 2.
+Trạng thái: chốt 2026-10-14 qua /grillme vòng 1 và 2 (quyết định: `ceo-brain/70-decisions/2026-10-14-a2a-so-site-setup.md`).
 
 ## 1. Site này là gì
 
@@ -29,9 +29,9 @@ a2a.so là hub kiến thức độc lập về giao thức A2A (Agent2Agent): A2
 | `/repos` | Repo và thư viện | SDK chính thức, framework hỗ trợ A2A, công cụ test/inspect, registry, sample. Star cập nhật tự động | `data/repos.yaml` + `data/stats.json` |
 | `/people` | Người dẫn dắt hệ sinh thái A2A | 5-10 người, vai trò, link nguồn công khai. Không gán câu nói không có nguồn | `data/people.yaml` |
 | `/about` | Về a2a.so | Ai làm, vì sao, disclaimer, liên hệ | |
-| `/about/sam` | Về Sam Nguyen | [CHỜ SAM] nguồn bio | |
+| `/about/sam` | Về Sam Nguyen | Agent viết nháp từ nguồn công khai (LinkedIn, samnguyen.work, bài đã đăng), chạy humanize-site, Sam duyệt trước khi publish | nguồn công khai |
 | `/about/avada` | Về Avada | Số khách hàng (không doanh thu), số app, Avada sở hữu a2a.so | số từ nexus, xem mục 6 |
-| `/about/founders` | Co-founder Avada | [CHỜ SAM] danh sách | |
+| `/about/founders` | Co-founder Avada | Sam Nguyen (Founder & CEO) và Thomas — Nguyễn Tuấn Anh (Co-founder & CTO). Chỉ hai người này | Sam chốt |
 
 Kèm theo: `/llms.txt`, `/llms-full.txt`, bản `.md` cho từng trang, `sitemap.xml`, `robots.txt`, JSON-LD.
 
@@ -67,7 +67,7 @@ Tính từ nexus.avada.net (snapshot 2026-10-14, lọc trùng theo shop domain t
 - Đang active (còn ít nhất 1 app Avada): 177.814 → 178,000+
 - Từng phục vụ (đã từng cài): 1.014.559 → 1,015,000+
 
-Hai số chưa loại shop test/bot. Dùng số nào: [CHỜ SAM].
+Sam chốt chỉ dùng một số: "1,015,000+ merchants served" (tính cả shop đã gỡ app, chưa loại shop test/bot). Không đưa số active lên site.
 
 ## 7. Deploy
 
